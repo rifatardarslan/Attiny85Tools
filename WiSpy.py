@@ -1,4 +1,3 @@
-from re import U
 import subprocess
 import requests
 
@@ -79,3 +78,4 @@ else:
 send_telegram_message(message)
 
 print("Telegram'a gönderildi!")
+
